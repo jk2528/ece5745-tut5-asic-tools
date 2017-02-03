@@ -251,10 +251,6 @@ class GcdUnitRTL (Model):
 
   def __init__( s ):
 
-    # using explict module name
-
-    s.explicit_modulename = 'GcdUnit'
-
     # Interface
 
     s.req   = InValRdyBundle  ( GcdUnitReqMsg() )
